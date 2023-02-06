@@ -1,0 +1,235 @@
+@media only screen and (max-width: 810px){
+    .section-p1{
+        padding: 40px;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background: #fff;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s ease;
+    }
+    #navbar.active{
+        right: 0;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobileMenu{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+    }
+    #mobileMenuBag{
+        color: #1a1a1a;
+    }
+    .mobile-menu #bars{
+        cursor: pointer;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    #closeMobileMenu{
+        display: flex;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        cursor: pointer;
+    }
+    /* Hero  */
+    #hero {
+        height: 50vh;
+        background-position: top 30% right 30%;
+    }
+    /* Feature  */
+    
+    #feature {
+        justify-content: center;
+    }
+    .fe-box {
+        margin: 15px;
+    }
+    /* Featured Product  */
+    #product1 .pro-container {
+        justify-content: center;
+    }
+    #product1 .pro-box {
+        margin: 15px;
+    }
+    /* Banner */
+    #banner {
+        height: 30vh;
+    }
+    #sm-banner .banner-box2,
+    #sm-banner .banner-box{
+        min-width: 100%;
+        height: 30vh;
+    }
+    #sm-banner .banner-box2{
+        margin-top: 30px;
+    }
+    #banner3 {
+        padding: 40px;
+    }
+    #banner3 .banner-box {
+        height: 20vh;
+        padding: 20px;
+    }
+    #banner3 .banner-box h2 {
+        font-size: 16px;
+    }
+    #banner3 .banner-box p {
+        font-size: 13px;
+    }
+    #newsletter .newsInput form .submit-btn {
+        padding: 15px;
+    }
+    .footer .col{
+        width: 50%;
+    }
+    .footer .col.footer-account{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .section-p1{
+        padding: 20px;
+    }
+    #header {
+        padding: 10px 30px;
+    }   
+    #hero {
+        height: 50vh;
+        background-position:55%;
+        padding: 0 20px;
+    } 
+     h4{
+        font-size: 14px;
+    }
+     h2{
+        font-size: 28px;
+        line-height: 45px;
+    }
+     h1{
+        font-size: 32px;
+        line-height: 45px;
+    }
+     p{
+        font-size: 12px;
+    }
+    #hero button {       
+        padding: 15px 60px 15px 50px;
+        
+    }
+    #feature {
+        justify-content: center;
+    }
+    .fe-box {
+        width: 150px;
+        margin: 0 5px 15px 5px;
+    }
+    #product1 .pro-box {
+        width: 100%;
+    }
+    #product1 h2 {
+        margin-bottom: -10px;
+    }
+    
+    #banner h4 {
+        font-size: 14px;
+    }
+    #banner h2 {
+        font-size: 28px;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+    .common-btn {
+        font-size: 12px;
+        padding: 12px 16px;
+    }
+
+    #sm-banner .banner-box2, #sm-banner .banner-box {
+        text-align: left;
+        padding: 20px;
+    }
+    .banner-box2 h4, .banner-box h4 {
+        font-size: 14px;
+    }
+    .banner-box2 h2, .banner-box h2 {
+        font-size: 28px;
+    }
+    #sm-banner .banner-box2 p, #sm-banner .banner-box p {
+        font-size: 12px;
+        margin: 5px 0 5px 0;
+    }
+    #banner3 {
+        padding: 20px;
+    }
+    #banner3 .banner-box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #banner3 .banner-box h2 {
+        font-size: 22px;
+    }
+    #newsletter{
+        text-align: center;
+    }
+    .newsText {
+        margin: 0 auto ;
+    }
+    #newsletter .newsInput {
+        width: 100%;
+    }
+    .footer .col{
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .footer .followUsIcon{
+        justify-content: center;
+    }
+    .footer-about h4{
+        margin-top: 10px;
+        margin-bottom: -20px;
+    }
+    .footer .sub-heading {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .footer .col.footer-account{
+        margin-top: 0;
+    }
+    .footer .col.footer-account h4 {
+        margin-top: 15px;
+        margin-bottom: -20px;
+    }
+    .col.install-app{
+        margin-bottom: 0;
+    }
+    .col.install-app h4 {
+        margin-top: 15px;
+        margin-bottom: -20px;
+    }
+
+/*    Product Details Page*/
+    #proDetail{
+        display: flex;
+        flex-direction: column ;
+    }
+    #proDetail .single-pro-img {
+        width: 100%;
+        margin-right: 0;
+    }
+    #proDetail .single-pro-detail {
+        width: 100%;
+    }
+}
